@@ -550,6 +550,10 @@ def(ui.Drawer, ht.ui.ViewGroup, {
         }
 
         return transform;
+    },
+
+    getVersion: function() {
+        return '5.0';
     }
 
 });
